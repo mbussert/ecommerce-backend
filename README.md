@@ -1,50 +1,53 @@
 # E-Commerce Server
 
-  ## Links:  
+## Links:
 
-  YouTube Demo:  
-  Repository: https://github.com/mbussert/ecommerce-backend
+YouTube Demo: Seeding Database - https://youtu.be/WLZj566_Yrk  
+YouTube Demo: Routes - https://youtu.be/TUassaqJH4o  
+Repository: https://github.com/mbussert/ecommerce-backend
 
-  ## Description: 
+## Description:
 
-  A working Express.js API which uses Sequelize to interact with a MySQL database. 
+A working Express.js API which uses Sequelize to interact with a MySQL database.
 
-  
+## Table of Contents:
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Testing](#tests)
+- [Contact](#contact)
 
-  ## Table of Contents: 
+## Installation:
 
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Testing](#tests)
-  * [Contact](#contact)
+Install dependencies `npm install`.  
+ Run the database schema located in /db/schema.sql.  
+ Seed the database using `npm run seed`.  
+ Start the server using `npm start`.
 
-  ## Installation: 
+## Usage:
 
-  
+Routes have been created to POST, GET, PUT, and DELETE products, categories, and tags.  
+API Endpoints:
 
-  ## Usage: 
+- api/categories
+- api/products
+- api/tags
 
-  
+## License:
 
+This application is covered under the GNU GPLv3 license.
 
+## Contributing:
 
-  ## License: 
+Users are free to contribute to this project.
 
-  This application is covered under the GNU GPLv3 license.
+## Tests:
 
-  ## Contributing: 
+No tests have been created for this application.
 
-  Users are free to contribute to this project.
+## Questions:
 
-  ## Tests: 
-
-  No tests have been created for this application.  
-
-
-  ## Questions: 
-
-  GitHub: [mbussert](https://github.com/mbussert)  
-  By Email: [mbussert@gmail.com](mailto:mbussert@gmail.com)
+GitHub: [mbussert](https://github.com/mbussert)  
+ By Email: [mbussert@gmail.com](mailto:mbussert@gmail.com)
